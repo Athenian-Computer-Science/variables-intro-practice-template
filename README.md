@@ -1,41 +1,34 @@
-# Lesson 1 Practice
+# Lesson 3 Practice (Variables Intro)
 
-Use this repository (repo, for short) to complete your practice for Lesson 1.
+Use this repository (repo, for short) to complete your practice for Lesson 3.
 
 ## Complete the following:
 #### Edpuzzle
 * [Edpuzzle practice](edpuzzle_practice.py) 🥉
   * Use this for practice during the Edpuzzle video. You can use the main window or the Python Console (see button at the bottom of the PyCharm window)
 
+#### Quick check
+On Canvas, complete the Quick check. Note any misconceptions/missed questions in OneNote, along with explanations/clarifications.
+
 #### Parsons Puzzles  
-* [Parsons Puzzle #1: print](https://athenian-computer-science.github.io/hosting-parsons-on-github-template/parsons/print.html) 🥉
-* [Parsons Puzzle #2: input & print](https://athenian-computer-science.github.io/hosting-parsons-on-github-template/parsons/input-print.html)  🥉
+* [Parsons Puzzle: variable reassignment](https://athenian-computer-science.github.io/hosting-parsons-on-github-template/parsons/variable-reassignment.html) 🥉
 
 #### Fix & Write Code  
-* [Fix the Code #1](fix_code_1.py) 🥉
-  * Fix the code so it prints a greeting. 
-    * Expected output: `Welcome to CompSci!`
-    * GitHub will test your solution when you submit. See instructions at the end of this page.
-* [Write Code #1](write_code_1.py) 🥈
-  * Tell the computer to print your own greeting/message.
-* [Fix the Code #2](fix_code_2.py) 🥉
-  * This program should assign the string "geometry" to the variable `math_class` and print a response. 
-    * Your print statement should use a formatted string (f-string) to insert the value of the variable into the sentence.
-      * Expected output: `My favorite class is geometry!`
-    * GitHub will run a test on this when you submit it.
-* [Write Code #2](write_code_2.py) 🥈
-  * Write a short program that assigns one of your hobbies to the variable `hobby` and prints a response. Be sure to use an f-string in your print statement to insert the value of the variable into your response.
-* [Fix the Code #3](fix_code_3.py) 🥉
-  * This program should collect the user's favorite flavor of ice cream. The computer should then respond that it likes that flavor too. Unfortunately, the program doesn't work yet. Please fix it so it works correctly.
-    *  Sample output (sample input in parentheses):
-     ```
-    What is your favorite ice cream flavor?  (peach)
-    I like peach too!
-    ```
-  * Be sure to format your print statement correctly. GitHub will test your solution.
-* [Write Code #3](write_code_3.py) 🥉
-  * Write a program that asks the user a question, saves their response in a variable and then prints a response using that variable. You get to choose the topic this time! 🎉
+* [Fix the Code: Rectangle Perimeter](rectangle_perimeter.py) 🥉
+  * **Description:** This program should calculate the perimeter of a rectangle, but it has some errors. Find and fix the errors so it runs correctly. Be sure to output is formatted to match the expected output! 
+  * **Pseudocode:** 
+    * Get base and height of rectangle (assume integer values)
+    * Calculate perimeter and assign the value to a variable
+    * Print a message that includes the calculated perimeter.
+    * The message should read: `"The perimeter of the rectangle is ___."`, where ___ is the calculated value.
+* **Example:** (user input in parentheses)
+  ```
+  Base: (5)
+  Height: (10)
+  Output: The perimeter of the rectangle is 30.
+  ```
+* **Check your work:**
+Run your program a few times to be sure it is working correctly. Remember to check your results, too, to be sure you don't have semantic errors. Also, double-check that your output is formatted correctly since that will casue problems with the GitHub testing. 
 
-### Submitting your Repo
-* When you have completed each
-
+### Submitting this repo
+When you are done, commit and push to GitHub. Then, check the repo in your browser to be sure it passed the tests.
