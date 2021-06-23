@@ -22,7 +22,7 @@ On Canvas, complete the Quick check. Note any misconceptions/missed questions in
     * Print a message that includes the calculated perimeter.
     * The message should read: `"The perimeter of the rectangle is ___."`, where ___ is the calculated value.
 * **Example:** (user input in parentheses)
-  ```
+  ```buildoutcfg
   Base: (5)
   Height: (10)
   Output: The perimeter of the rectangle is 30.
