@@ -3,7 +3,7 @@ name: Build and Test
 on:
   push:
     paths: 
-      - 'src/my_code.py'
+      - 'src/rectangle_perimeter.py'
 
 jobs:
 
