@@ -32,3 +32,8 @@ Run your program a few times to be sure it is working correctly. Remember to che
 
 ### Submitting this repo
 When you are done, commit and push to GitHub. Then, check the repo in your browser to be sure it passed the tests.
+
+
+**Attribution:**
+
+Thank you to Bianca Ruiz [@RuiztheRuler](https://github.com/RuizTheRuler) for providing a great starting place for automating feedback!
