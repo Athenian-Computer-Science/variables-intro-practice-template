@@ -7,7 +7,7 @@ on:
 
 jobs:
 
-  test_with_pytest:
+  style_test:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
@@ -23,7 +23,7 @@ jobs:
     - name: Lint student program
       id: style
       continue-on-error: true
-      run: flake8 src/my_code.py >> .github/ISSUE_TEMPLATE/style-issues.md
+      run: flake8 src/rectangle_perimeter.py >> .github/ISSUE_TEMPLATE/style-issues.md
 
     - name: Style fail message
       if: failure()
